@@ -1,4 +1,4 @@
-FROM tomcat:7
+FROM tomcat
 ADD target/docker-spring-boot.war   docker-spring-boot.war
 EXPOSE 8085
-CMD  sh /tomcat-7/bin/startup.sh
+CMD  sh /tomcat/bin/startup.sh
